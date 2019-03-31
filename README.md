@@ -1,5 +1,6 @@
 ## springboot指南
 1. 包结构
+```
     |--BOOT-INF
         |--class
             源码文件
@@ -8,5 +9,7 @@
     |--META-INF
         |-- MANIFEST.MF 清单
     |--org
+
+```
     
 2.     

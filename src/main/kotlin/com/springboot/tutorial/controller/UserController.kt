@@ -22,7 +22,7 @@ class UserController {
 
 
     @GetMapping("/user")
-    fun home(@RequestParam(value = "name") name: String) =
+    fun sayHello(@RequestParam(value = "name") name: String) =
             UserInfo(id.getAndIncrement(), "hello,$name")
 
 }

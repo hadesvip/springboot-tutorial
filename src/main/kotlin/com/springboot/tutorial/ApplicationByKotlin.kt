@@ -15,12 +15,12 @@ import org.springframework.boot.builder.SpringApplicationBuilder
 class ApplicationByKotlin
 
 fun main(args: Array<String>) {
-    SpringApplication.run(ApplicationByKotlin::class.java, *args)
+//    SpringApplication.run(ApplicationByKotlin::class.java, *args)
 
     //builder模式
-//    SpringApplicationBuilder(ApplicationByKotlin::class.java)
-//            .properties("server.port=0")
-//            .run(*args)
+    SpringApplicationBuilder(ApplicationByKotlin::class.java)
+            .properties("server.port=0")
+            .run(*args)
 
 
 //    val springApplication = SpringApplication(ApplicationByKotlin::class.java)

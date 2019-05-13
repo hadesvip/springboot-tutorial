@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController
 class HomeController {
 
     @RequestMapping(value = ["/"], produces = [MediaType.APPLICATION_JSON_UTF8_VALUE])
-    fun index() = "Welcome , My Buddy!"
+    fun index() = "Welcome, My Buddy!"
 
 
 }

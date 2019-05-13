@@ -1,7 +1,7 @@
 spring:
   application:
     name: springboot-tutorial
-  mandatory-file-encoding: UTF-8
+#  mandatory-file-encoding: UTF-8
   http:
     encoding:
       charset: UTF-8

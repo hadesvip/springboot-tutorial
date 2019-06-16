@@ -35,9 +35,10 @@ dependencies {
     compile(
             'org.springframework.boot:spring-boot-starter-web',
             'org.springframework.boot:spring-boot-loader',
+            'org.springframework.boot:spring-boot-devtools',
             'com.fasterxml.jackson.module:jackson-module-kotlin',
             'org.jetbrains.kotlin:kotlin-reflect',
-            'org.jetbrains.kotlin:kotlin-stdlib-jdk8',
+            'org.jetbrains.kotlin:kotlin-stdlib-jdk8'
     )
     testCompile(
             'org.springframework.boot:spring-boot-starter-test'
